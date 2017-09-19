@@ -6,7 +6,7 @@ This module lets you practice:
   -- CALLING functions
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  April 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -15,14 +15,14 @@ import math
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_generate_points_on_circle()
-    test_draw_points_on_circle()
-    test_pizza()
-    test_polygon()
-    test_fancy_polygon()
+    run_test_generate_points_on_circle()
+    run_test_draw_points_on_circle()
+    run_test_pizza()
+    run_test_polygon()
+    run_test_fancy_polygon()
 
 
-def test_generate_points_on_circle():
+def run_test_generate_points_on_circle():
     """ Tests the   generate_points_on_circle   function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
@@ -82,7 +82,7 @@ def generate_points_on_circle(circle_for_points,
     # ------------------------------------------------------------------
     # Students:
     #   Do NOT touch the above  generate_points_on_circle function -
-    #     it has no TODO.
+    #     it has no TO DO.
     #   Do NOT copy code from this function.
     #
     # Instead, ** CALL ** this function as needed in the problems below.
@@ -124,7 +124,7 @@ def generate_points_on_circle(circle_for_points,
     return points
 
 
-def test_draw_points_on_circle():
+def run_test_draw_points_on_circle():
     """ Tests the   draw_points_on_circle   function. """
     # ------------------------------------------------------------------
     # TODO: 3. Implement this TEST function.
@@ -215,7 +215,7 @@ def draw_points_on_circle(window, circle, number_of_points, color):
     # ------------------------------------------------------------------
 
 
-def test_pizza():
+def run_test_pizza():
     """ Tests the   pizza   function. """
     # ------------------------------------------------------------------
     # TODO: 5. Implement this TEST function.
@@ -303,7 +303,7 @@ def pizza(window, circle, number_of_slices, color, thickness):
     # ------------------------------------------------------------------
 
 
-def test_polygon():
+def run_test_polygon():
     """ Tests the   polygon   function. """
     # ------------------------------------------------------------------
     # TODO: 7. Implement this TEST function.
@@ -381,7 +381,7 @@ def polygon(window, circle, number_of_segments, color, thickness):
     # ------------------------------------------------------------------
 
 
-def test_fancy_polygon():
+def run_test_fancy_polygon():
     """ Tests the   fancy_polygon   function. """
     # ------------------------------------------------------------------
     # TODO: 9. Implement this TEST function.

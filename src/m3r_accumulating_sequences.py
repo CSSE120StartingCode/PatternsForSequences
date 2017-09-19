@@ -5,7 +5,7 @@ one item at a time, using the ACCUMULATOR pattern.
         sequences, namely by MUTATING their elements.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  April 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 # ----------------------------------------------------------------------
@@ -16,7 +16,7 @@ Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
 #   for each of LISTS, STRINGS and TUPLES:
 #      -- HOW to BUILD UP them, using the ACCUMULATOR pattern.
 #   then:
-#      change the above TODO to DONE.
+#      change the above TO DO to DONE.
 # ----------------------------------------------------------------------
 
 
@@ -128,6 +128,7 @@ def build_string():
         sequence = sequence + str(k ** 2) + ' '
 
     print(sequence)
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

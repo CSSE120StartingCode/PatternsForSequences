@@ -5,7 +5,7 @@ one item at a time, using the ACCUMULATOR pattern.
         sequences, namely by MUTATING their elements.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  April 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -13,14 +13,14 @@ import rosegraphics as rg
 
 def main():
     """ Calls the various   TEST   functions in this module. """
-    test_make_simple_list()
-    test_make_simple_string()
-    test_make_less_simple_string()
-    test_draw_shapes()
-    test_rectangles_from_circles()
+    run_test_make_simple_list()
+    run_test_make_simple_string()
+    run_test_make_less_simple_string()
+    run_test_draw_shapes()
+    run_test_rectangles_from_circles()
 
 
-def test_make_simple_list():
+def run_test_make_simple_list():
     """ Tests the   make_simple_list    function. """
     # ------------------------------------------------------------------
     # TODO: 2. Implement this TEST function.
@@ -67,7 +67,7 @@ def make_simple_list(m, n):
     # ------------------------------------------------------------------
 
 
-def test_make_simple_string():
+def run_test_make_simple_string():
     """ Tests the   make_simple_string    function. """
     # ------------------------------------------------------------------
     # TODO: 4. Implement this TEST function.
@@ -108,7 +108,7 @@ def make_simple_string(m, n):
     # ------------------------------------------------------------------
 
 
-def test_make_less_simple_string():
+def run_test_make_less_simple_string():
     """ Tests the   make_less_simple_string    function. """
     # ------------------------------------------------------------------
     # TODO: 6. Implement this TEST function.
@@ -151,7 +151,7 @@ def make_less_simple_string(m, n):
     # -----------------------------------------------------------------
 
 
-def test_draw_shapes():
+def run_test_draw_shapes():
     """ Tests the   draw_shapes    function. """
     print()
     print('-----------------------------------------------------------')
@@ -242,7 +242,7 @@ def draw_shapes(shapes, window):
     # ------------------------------------------------------------------
 
 
-def test_rectangles_from_circles():
+def run_test_rectangles_from_circles():
     """ Tests the   rectangles_from_circles    function. """
     print()
     print('-----------------------------------------------------------')

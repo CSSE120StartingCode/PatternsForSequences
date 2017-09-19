@@ -7,7 +7,7 @@ This module demonstrates OVERLOADING the  +  symbol:
 This module also demonstrates the   STR   function.
 
 Authors: David Mutchler, Dave Fisher, Valerie Galluzzi, Mark Hays,
-         Amanda Stouder and their colleagues.  April 2016.
+         Amanda Stouder and their colleagues.
 """
 # ----------------------------------------------------------------------
 #  Students: Read and run this program.  There is nothing else
@@ -96,6 +96,7 @@ def main():
     print(format_string1.format(50, 222, 50 * 222))
     print(format_string2.format(311, 80, 311 / 80))
     print(format_string2.format(50, 222, 50 / 222))
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.

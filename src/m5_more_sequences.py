@@ -7,7 +7,7 @@ for ITERATING through SEQUENCES, including:
   -- The FIND pattern (via LINEAR SEARCH)
 
 Authors: David Mutchler, Valerie Galluzzi, Mark Hays, Amanda Stouder,
-         their colleagues and PUT_YOUR_NAME_HERE.  September 2016.
+         their colleagues and PUT_YOUR_NAME_HERE.
 """  # TODO: 1. PUT YOUR NAME IN THE ABOVE LINE.
 
 import rosegraphics as rg
@@ -15,17 +15,17 @@ import rosegraphics as rg
 
 def main():
     """ Calls the   TEST   functions in this module. """
-    test_sum_radii()
-    test_count_last_n_odds()
-    test_index_of_first_negative()
-    test_contains_an_a()
+    run_test_sum_radii()
+    run_test_count_last_n_odds()
+    run_test_index_of_first_negative()
+    run_test_contains_an_a()
 
 
 # ----------------------------------------------------------------------
 # Many problems simply iterate (loop) through ALL of the sequence,
 # as in the  sum_radii  problem below.
 # ----------------------------------------------------------------------
-def test_sum_radii():
+def run_test_sum_radii():
     """ Tests the   sum_radii   function. """
     print()
     print('--------------------------------------------------')
@@ -92,7 +92,7 @@ def sum_radii(circles):
 # Some problems iterate (loop) through PART of the sequence,
 # perhaps BACKWARDS, as in the   count_last_n_odds   problem below.
 # ----------------------------------------------------------------------
-def test_count_last_n_odds():
+def run_test_count_last_n_odds():
     """ Tests the   count_last_n_odds   function. """
     print()
     print('--------------------------------------------------')
@@ -160,7 +160,7 @@ def count_last_n_odds(integers, n):
 # (or continuing to the end if it does NOT find the thing of interest),
 # as in the following problems:
 # ----------------------------------------------------------------------
-def test_index_of_first_negative():
+def run_test_index_of_first_negative():
     """ Tests the   index_of_first_negative   function. """
     print()
     print('--------------------------------------------------')
@@ -228,7 +228,7 @@ def index_of_first_negative(numbers):
     # ------------------------------------------------------------------
 
 
-def test_contains_an_a():
+def run_test_contains_an_a():
     """ Tests the   contains_an_a   function. """
     print()
     print('--------------------------------------------------')
