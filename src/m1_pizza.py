@@ -1,6 +1,6 @@
 """
 This module lets you practice:
-  -- ITERATING (i.e. LOOPING) thru a SEQUENCE
+  -- ITERATING (i.e. LOOPING) through a SEQUENCE
   -- Using OBJECTS
   -- DEFINING functions
   -- CALLING functions
@@ -15,11 +15,23 @@ import math
 
 def main():
     """ Calls the   TEST   functions in this module. """
+
+    # ------------------------------------------------------------------
+    # STUDENTS: Do the work in this module as follows.
+    #   Otherwise, you will be overwhelmed by the output.
+    #
+    #   For each function that you implement:
+    #     1. Locate the statements just below this comment that call TEST functions.
+    #     2. UN-comment only one test at a time.
+    #     3. Implement that function per its TO DO.
+    #     4. When satisfied with your work, move onto the next test.
+    # ------------------------------------------------------------------
+
     run_test_generate_points_on_circle()
-    run_test_draw_points_on_circle()
-    run_test_pizza()
-    run_test_polygon()
-    run_test_fancy_polygon()
+    # run_test_draw_points_on_circle()
+    # run_test_pizza()
+    # run_test_polygon()
+    # run_test_fancy_polygon()
 
 
 def run_test_generate_points_on_circle():
@@ -46,8 +58,7 @@ def run_test_generate_points_on_circle():
                 rg.Point(75.0, 50.0),
                 rg.Point(87.5, 28.3),
                 rg.Point(112.5, 28.3)]
-    circle = rg.Circle(rg.Point(100, 50),
-                       25)
+    circle = rg.Circle(rg.Point(100, 50), 25)
     answer = generate_points_on_circle(circle, 6)
 
     print('Expected:', expected)
