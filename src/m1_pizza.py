@@ -87,7 +87,7 @@ def generate_points_on_circle(circle_for_points,
       See the   'draw_points_on_circle'   pictures  in the   pizza.pdf
       file attached, with the points shown on those pictures.
     Type hints:
-      :type circle:  rg.Circle
+      :type circle_for_points:  rg.Circle
       :type number_of_points_to_generate: int
     """
     # ------------------------------------------------------------------
@@ -498,6 +498,7 @@ def fancy_polygon(window, circle, number_of_lines,
       :type window:          rg.RoseWindow
       :type circle:          rg.Circle
       :type number_of_lines: int
+      :type hops_to_next_point: int
       :type color:           str
       :type thickness:       int
     """
@@ -515,6 +516,7 @@ def fancy_polygon(window, circle, number_of_lines,
     #       appropriately.  ASK YOUR INSTRUCTOR FOR AN EXAMPLE.
     ####################################################################
     # ------------------------------------------------------------------
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
