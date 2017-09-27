@@ -191,8 +191,7 @@ def draw_points_on_circle(window, circle, number_of_points, color):
 
       1. Attaches the given rg.Circle to the given rg.RoseWindow.
       2. Generates (constructs) the given number of rg.Point objects
-           on the given rg.Circle's circumference,
-           spaced equally from each other.
+           on the given rg.Circle's circumference, spaced equally from each other.
       3. For each of those rg.Point objects:
            a. Constructs an rg.Circle centered at that point,
               filled with the given color and with a radius of 10.

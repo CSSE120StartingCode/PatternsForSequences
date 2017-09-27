@@ -220,7 +220,7 @@ def index_of_first_negative(numbers):
       -- [1, 29, 22, 8], this function returns -1
             since the list contains no negative numbers
     Type hints:
-      :type integers: list[float]   or tuple[float]
+      :type numbers: list[float]   or tuple[float]
     """
     # ------------------------------------------------------------------
     # TODO: 4. Implement and test this function.

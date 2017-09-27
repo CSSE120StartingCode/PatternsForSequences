@@ -16,8 +16,14 @@ def main():
     run_test_make_simple_list()
     run_test_make_simple_string()
     run_test_make_less_simple_string()
-    run_test_draw_shapes()
-    run_test_rectangles_from_circles()
+
+    # ------------------------------------------------------------------
+    # TODO: 8. Uncomment the tests below before working TO DO 9.
+    #   They launch annoying rg.RoseWindows on each run that you don't want
+    #   until you get to TO DO 9 and 10.
+    # ------------------------------------------------------------------
+    # run_test_draw_shapes()
+    # run_test_rectangles_from_circles()
 
 
 def run_test_make_simple_list():
@@ -225,18 +231,17 @@ def draw_shapes(shapes, window):
     Examples:
       See the   draw_shapes.pdf   file in this project.
     Type hints:
-      :type shapes:  list[rg.Shape]    or tuple(rg.Shape)
+      :type shapes:  list[rg._Shape] or tuple[rg._Shape]
       :type window:  rg.RoseWindow
     """
     # ------------------------------------------------------------------
-    # TODO: 8. Implement and test this function.
-    #     The testing code is already written for you (above).
+    # TODO: 9. Implement and test this function. Make sure you do TO DO 8 in main first!
+    #     The testing code is already written for you (that you just enabled in TO DO 8).
     #
     ####################################################################
     # IMPORTANT: the same
     #    attach_to
     # method works for ALL the rosegraphics shapes!
-    # The DOT trick is unaware of this fact, but it WILL work - try it!
     # FWIW: The word for ideas like this is "polymorphism".
     ####################################################################
     # ------------------------------------------------------------------
@@ -332,16 +337,16 @@ def rectangles_from_circles(circles):
     What comes in:
       -- a sequence of rg.Circle objects
     What goes out:
-      Returns a list of rg.Rectangles, where each rg.Rectangle
-      circumscribes its corresponding rg.Circle in the given list
-      of rg.Circles.
+      Returns a list of rg.Rectangles, where each rg.Rectangle circumscribes
+      its corresponding rg.Circle in the given list of rg.Circles.
     Side effects: None.
     Examples: See   rectangles_from_circles.pdf   in this project.
     Type hints:
-      :type circles:  list[rg.Circle]    or tuple(rg.Circle)
+      :type circles:  list of rg.Circle or tuple of rg.Circle
+      :rtype: list of rg.Rectangles
     """
     # ------------------------------------------------------------------
-    # TODO: 9. Implement and test this function.
+    # TODO: 10. Implement and test this function.
     #     The testing code is already written for you (above).
     #
     ####################################################################
