@@ -69,8 +69,7 @@ def run_test_generate_points_on_circle():
     # ------------------------------------------------------------------
 
 
-def generate_points_on_circle(circle_for_points,
-                              number_of_points_to_generate):
+def generate_points_on_circle(circle_for_points, number_of_points_to_generate):
     """
     What comes in:
       -- an rg.Circle
@@ -161,8 +160,7 @@ def run_test_draw_points_on_circle():
     window.close_on_mouse_click()
 
     # Tests 2 and 3 (on the same window):
-    title = 'Tests 2 and 3:  6 blue on deep pink;' + \
-        '  10 green1 on unfilled.'
+    title = 'Tests 2 and 3:  6 blue on deep pink;  10 green1 on unfilled.'
     window = rg.RoseWindow(440, 400, title)
     circle = rg.Circle(rg.Point(135, 135), 50)
     circle.fill_color = 'deep pink'
@@ -251,8 +249,7 @@ def run_test_pizza():
     window.close_on_mouse_click()
 
     # Tests 2 and 3 (on the same window):
-    title = 'PIZZA tests 2 and 3:  8 white slices on purple circle;' + \
-        '  20 green1 on blue circle.'
+    title = 'PIZZA tests 2 and 3:  8 white slices on purple circle; 20 green slices on blue circle.'
     window = rg.RoseWindow(520, 400, title)
 
     circle = rg.Circle(rg.Point(125, 125), 50)
@@ -331,8 +328,7 @@ def run_test_polygon():
     print('--------------------------------------------------')
 
     # Tests 1 and 2 (on the same window):
-    title = 'POLYGON tests 1 and 2:  3 segments' + \
-        ' with thick blue lines;  6 with medium red lines.'
+    title = 'POLYGON tests 1 and 2:  3 segments with thick blue lines;  6 with medium red lines.'
     window = rg.RoseWindow(550, 400, title)
 
     circle = rg.Circle(rg.Point(100, 100), 80)
@@ -409,8 +405,7 @@ def run_test_fancy_polygon():
     print('--------------------------------------------------')
 
     # Tests 1 and 2 (on the same window):
-    title = 'FANCY POLYGON tests 1 and 2:  7 blue lines, hops = 2;' + \
-        '  5 red lines, hops = 3.'
+    title = 'FANCY POLYGON tests 1 and 2:  7 blue lines, hops = 2;  5 red lines, hops = 3.'
     window = rg.RoseWindow(520, 400, title)
 
     circle = rg.Circle(rg.Point(100, 100), 80)
@@ -423,8 +418,7 @@ def run_test_fancy_polygon():
     window.close_on_mouse_click()
 
     # Test 3 (on another window):
-    title = 'FANCY POLYGON test 3:  20 lime green lines' + \
-        ' on blue circle, hops = 7.'
+    title = 'FANCY POLYGON test 3:  20 lime green lines on blue circle, hops = 7.'
     window = rg.RoseWindow(480, 350, title)
 
     circle = rg.Circle(rg.Point(240, 165), 150)
@@ -444,8 +438,7 @@ def run_test_fancy_polygon():
     # ------------------------------------------------------------------
 
 
-def fancy_polygon(window, circle, number_of_lines,
-                  hops_to_next_point, color, thickness):
+def fancy_polygon(window, circle, number_of_lines, hops_to_next_point, color, thickness):
     """
     What comes in:
       -- an rg.RoseWindow
