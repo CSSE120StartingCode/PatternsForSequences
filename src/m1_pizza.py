@@ -88,6 +88,7 @@ def generate_points_on_circle(circle_for_points, number_of_points_to_generate):
     Type hints:
       :type circle_for_points:  rg.Circle
       :type number_of_points_to_generate: int
+      :rtype: list of rg.Points
     """
     # ------------------------------------------------------------------
     # Students:

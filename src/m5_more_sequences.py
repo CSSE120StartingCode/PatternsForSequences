@@ -72,7 +72,8 @@ def sum_radii(circles):
       then   sum_radii([circle1, circle2, circle3])
       returns 25 + 50 + 10, which is 85.
     Type hints:
-      :type circles:  list[rg.Circle]    or tuple(rg.Circle)
+      :type circles:  list | tuple of rg.Circle
+      :rtype: int | float
     """
     # ------------------------------------------------------------------
     # TODO: 2. Implement and test this function.
@@ -145,8 +146,9 @@ def count_last_n_odds(integers, n):
        count_last_n_odds(sequence, 3) is 2  [2 odds, namely 3 and 15]
        count_last_n_odds(sequence, 4) is 3  [3 odds: 3, 15 and 13]
     Type hints:
-      :type integers: list[int]   or tuple[int]
-      :type n:        int
+      :type integers: list | tuple of int
+      :type n: int
+      :rtype: int
     """
     # ------------------------------------------------------------------
     # TODO: 3. Implement and test this function.
@@ -220,7 +222,8 @@ def index_of_first_negative(numbers):
       -- [1, 29, 22, 8], this function returns -1
             since the list contains no negative numbers
     Type hints:
-      :type numbers: list[float]   or tuple[float]
+      :type numbers: list | tuple of float | int
+      :rtype: int
     """
     # ------------------------------------------------------------------
     # TODO: 4. Implement and test this function.
@@ -278,6 +281,7 @@ def contains_an_a(s):
       -- contains_an_a('')                returns False
     Type hints:
       :type s: str
+      :rtype: bool
     """
     # ------------------------------------------------------------------
     # TODO: 5. Implement and test this function.

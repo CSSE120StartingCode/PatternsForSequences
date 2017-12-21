@@ -250,7 +250,7 @@ class RoseWindow(object):
         Updates all the Shapes attached to RoseCanvas objects associated with this RoseWindow, then draws all those Shapes.
         After doing so, pauses the given number of seconds.
 
-          :type  seconds_to_pause:  int
+          :type  seconds_to_pause:  int | float
         """
         for widget in self.widgets:
             if type(widget) == RoseCanvas:

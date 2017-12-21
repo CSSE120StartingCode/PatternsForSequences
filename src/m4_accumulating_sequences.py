@@ -231,7 +231,7 @@ def draw_shapes(shapes, window):
     Examples:
       See the   draw_shapes.pdf   file in this project.
     Type hints:
-      :type shapes:  list[rg._Shape] or tuple[rg._Shape]
+      :type shapes:  list | tuple of rg._Shape
       :type window:  rg.RoseWindow
     """
     # ------------------------------------------------------------------
@@ -342,7 +342,7 @@ def rectangles_from_circles(circles):
     Side effects: None.
     Examples: See   rectangles_from_circles.pdf   in this project.
     Type hints:
-      :type circles:  list of rg.Circle or tuple of rg.Circle
+      :type circles:  list | tuple of rg.Circle
       :rtype: list of rg.Rectangles
     """
     # ------------------------------------------------------------------
