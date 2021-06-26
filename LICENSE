@@ -1,21 +1,28 @@
-MIT License
+Your copy of the starting code for a Python software development project
+  for CSSE 120 Introduction to Software Development,
+  Department of Computer Science and Software Engineering,
+  Rose-Hulman Institute of Technology.
+  Lead maintainer: Professor David Mutchler, with lots of help from colleagues.
 
-Copyright (c) 2017 CSSE120StartingCode
+IMPORTANT: Please do NOT share ** SOLUTIONS ** to these projects
+anywhere that is publicly available.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+This starting code for a Python software development project
+  for CSSE 120 Introduction to Software Development,
+  by David Mutchler, Professor of Computer Science and Software Engineering (CSSE),
+  Rose-Hulman Institute of Technology, and his CSSE colleagues,
+  is licensed under CC BY-NC-SA 4.0.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+To view a copy of this license, visit https://creativecommons.org/licenses/by-nc-sa/4.0
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+Short, informal summary of this license:
+   CC-BY-NC-SA This license requires that reusers give credit to the creator.
+   It allows reusers to distribute, remix, adapt, and build upon the material
+   in any medium or format, for noncommercial purposes only.
+   If others modify or adapt the material, they must license the modified material under identical terms.
+
+Note the phrase: "for noncommercial purposes only".
+
+To view the source of this work, visit:
+  https://github.com/RHIT-CSSE/csse120-public
+
